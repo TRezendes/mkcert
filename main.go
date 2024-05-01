@@ -41,6 +41,9 @@ const shortUsage = `Usage of mkcert:
 	$ mkcert "*.example.it"
 	Generate "_wildcard.example.it.pem" and "_wildcard.example.it-key.pem".
 
+	$ mkcert -client example_name another_name
+	Generate "example_name+1.pem" and "example_name+1-key.pem" with Common Name (CN) "example_name".
+
 	$ mkcert -uninstall
 	Uninstall the local CA (but do not delete it).
 

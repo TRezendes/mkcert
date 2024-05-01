@@ -133,7 +133,7 @@ To only install the local root CA into a subset of them, you can set the `TRUST_
 	    Customize the output paths.
 
 	-client
-	    Generate a certificate for client authentication.
+	    Generate a certificate for client authentication. When this flag is used, the certificate's CN is set to the first name provided in the domain names list.
 
 	-ecdsa
 	    Generate a certificate with an ECDSA key.
